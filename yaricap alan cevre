@@ -1,0 +1,24 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp5
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            double yaricap, alan, cevre;
+            Console.Write("Yarıçapı Girin : ");
+            yaricap = Convert.ToDouble(Console.ReadLine());
+            alan = 3.14 * yaricap * yaricap;
+            cevre = 2 * 3.14 * yaricap;
+            Console.WriteLine("Alan : " + alan);
+            Console.WriteLine("Çevre : " + cevre);
+            Console.ReadKey();
+
+        }
+    }
+}
